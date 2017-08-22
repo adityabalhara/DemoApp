@@ -1,0 +1,5 @@
+C:\Workspace\Agile_Proj\NewApp\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Workspace\Agile_Proj\NewApp\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Workspace\Agile_Proj\NewApp\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Workspace\Agile_Proj\NewApp\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Workspace\Agile_Proj\NewApp\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb

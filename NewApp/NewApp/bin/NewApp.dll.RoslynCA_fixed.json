@@ -1,0 +1,448 @@
+{
+  "version": "0.1",
+  "toolInfo": {
+    "toolName": "Microsoft (R) Visual C# Compiler",
+    "productVersion": "1.0.0",
+    "fileVersion": "1.0.0"
+  },
+  "issues": [
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\AccountController.cs",
+              "region": {
+                "startLine": 161,
+                "startColumn": 20,
+                "endLine": 161,
+                "endColumn": 100
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be \"commented out\"",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\AccountController.cs",
+              "region": {
+                "startLine": 213,
+                "startColumn": 16,
+                "endLine": 213,
+                "endColumn": 92
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be \"commented out\"",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\App_Start\\Startup.Auth.cs",
+              "region": {
+                "startLine": 50,
+                "startColumn": 12,
+                "endLine": 50,
+                "endColumn": 36
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be \"commented out\"",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\App_Start\\BundleConfig.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 17,
+                "endLine": 5,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\App_Start\\FilterConfig.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 17,
+                "endLine": 5,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\App_Start\\RouteConfig.cs",
+              "region": {
+                "startLine": 9,
+                "startColumn": 17,
+                "endLine": 9,
+                "endColumn": 28
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1144",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 365,
+                "startColumn": 8,
+                "endLine": 373,
+                "endColumn": 9
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the unused private method 'HasPhoneNumber'.",
+      "fullMessage": "Private, or internal, types or members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Unused private types or members should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S1144",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S3776",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 54,
+                "startColumn": 40,
+                "endLine": 54,
+                "endColumn": 45
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 57,
+                "startColumn": 65,
+                "endLine": 57,
+                "endColumn": 66
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 58,
+                "startColumn": 64,
+                "endLine": 58,
+                "endColumn": 65
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 59,
+                "startColumn": 65,
+                "endLine": 59,
+                "endColumn": 66
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 60,
+                "startColumn": 51,
+                "endLine": 60,
+                "endColumn": 52
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 61,
+                "startColumn": 61,
+                "endLine": 61,
+                "endColumn": 62
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 62,
+                "startColumn": 64,
+                "endLine": 62,
+                "endColumn": 65
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+      "fullMessage": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Cognitive Complexity of methods should not be too high",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S3776",
+        "isEnabledByDefault": "True",
+        "customProperties": {
+          "0": "+1",
+          "1": "+2 (incl 1 for nesting)",
+          "2": "+3 (incl 2 for nesting)",
+          "3": "+4 (incl 3 for nesting)",
+          "4": "+5 (incl 4 for nesting)",
+          "5": "+6 (incl 5 for nesting)"
+        }
+      }
+    },
+    {
+      "ruleId": "S3458",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\AccountController.cs",
+              "region": {
+                "startLine": 86,
+                "startColumn": 16,
+                "endLine": 86,
+                "endColumn": 42
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this empty 'case' clause.",
+      "fullMessage": "Empty case clauses that fall through to the default are useless. Whether or not such a case is present, the default clause will be invoked. Such cases simply clutter the code, and should be removed.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Hidden",
+        "title": "Empty \"case\" clauses that fall through to the \"default\" should be omitted",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S3458",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S3458",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\AccountController.cs",
+              "region": {
+                "startLine": 129,
+                "startColumn": 16,
+                "endLine": 129,
+                "endColumn": 42
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this empty 'case' clause.",
+      "fullMessage": "Empty case clauses that fall through to the default are useless. Whether or not such a case is present, the default clause will be invoked. Such cases simply clutter the code, and should be removed.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Hidden",
+        "title": "Empty \"case\" clauses that fall through to the \"default\" should be omitted",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S3458",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S3458",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\AccountController.cs",
+              "region": {
+                "startLine": 340,
+                "startColumn": 16,
+                "endLine": 340,
+                "endColumn": 42
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this empty 'case' clause.",
+      "fullMessage": "Empty case clauses that fall through to the default are useless. Whether or not such a case is present, the default clause will be invoked. Such cases simply clutter the code, and should be removed.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Hidden",
+        "title": "Empty \"case\" clauses that fall through to the \"default\" should be omitted",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S3458",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Workspace\\Agile_Proj\\NewApp\\NewApp\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 166,
+                "startColumn": 16,
+                "endLine": 166,
+                "endColumn": 20
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused 'code' local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=5.10.1.1411&ruleId=S1481",
+        "isEnabledByDefault": "True"
+      }
+    }
+  ]
+}
